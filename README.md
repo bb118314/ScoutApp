@@ -1,7 +1,7 @@
 # ScoutApp
 
 
-Record Keeping: This is the first Page, it keeps track of the event, team, and the match number they are on currently, as well as the color alliance.
+#Record Keeping: This is the first Page, it keeps track of the event, team, and the match number they are on currently, as well as the color alliance.
 
 Preload: Either get a cargo or a hatch, then you can pick between one of the three sides, A,B, or C. And then you can choose one of the slots that are given to you depending on the letter you choose.
 
