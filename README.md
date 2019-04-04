@@ -14,10 +14,12 @@
 
   <h2>Autonomous</h2>
   <p>
+  Autonomous is used only for the first fifteen seconds and allows input for the robot's actions including scoring.
 </p>
 
 <h2>Driver Controlled</h2>
   <p>
+  Similar to autonomous, the driver controlled page uses user input to disaply the misses and successful attempts in the statistics page.
 </p>
 
 <h2>Endgame</h2>
