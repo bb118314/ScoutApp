@@ -34,5 +34,4 @@
   <p>You can either go to the next game, or you can quit. if you pick next game then you go to record keeping, otherwise it closes the program. 
 </p>
 ![Flowchart](https://github.com/bb118314/ScoutApp/blob/master/FlowChart.png)
-
 </div>
