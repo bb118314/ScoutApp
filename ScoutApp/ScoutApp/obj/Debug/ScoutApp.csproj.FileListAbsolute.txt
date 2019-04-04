@@ -1,0 +1,16 @@
+C:\Users\bb118314\Documents\ScoutApp\ScoutApp\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\bb118314\Documents\ScoutApp\ScoutApp\bin\Debug\WindowsFormsApp1.exe
+C:\Users\bb118314\Documents\ScoutApp\ScoutApp\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\bb118314\Documents\ScoutApp\ScoutApp\obj\Debug\ScoutApp.csprojAssemblyReference.cache
+C:\Users\bb118314\Documents\ScoutApp\ScoutApp\obj\Debug\WindowsFormsApp1.Autonomous.resources
+C:\Users\bb118314\Documents\ScoutApp\ScoutApp\obj\Debug\WindowsFormsApp1.gb.resources
+C:\Users\bb118314\Documents\ScoutApp\ScoutApp\obj\Debug\WindowsFormsApp1.EndGame.resources
+C:\Users\bb118314\Documents\ScoutApp\ScoutApp\obj\Debug\WindowsFormsApp1.frmRecordLog.resources
+C:\Users\bb118314\Documents\ScoutApp\ScoutApp\obj\Debug\WindowsFormsApp1.FRC_Statistics.resources
+C:\Users\bb118314\Documents\ScoutApp\ScoutApp\obj\Debug\WindowsFormsApp1.PreloadForm.resources
+C:\Users\bb118314\Documents\ScoutApp\ScoutApp\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\bb118314\Documents\ScoutApp\ScoutApp\obj\Debug\WindowsFormsApp1.QuitNextForm.resources
+C:\Users\bb118314\Documents\ScoutApp\ScoutApp\obj\Debug\ScoutApp.csproj.GenerateResource.cache
+C:\Users\bb118314\Documents\ScoutApp\ScoutApp\obj\Debug\ScoutApp.csproj.CoreCompileInputs.cache
+C:\Users\bb118314\Documents\ScoutApp\ScoutApp\obj\Debug\WindowsFormsApp1.exe
+C:\Users\bb118314\Documents\ScoutApp\ScoutApp\obj\Debug\WindowsFormsApp1.pdb

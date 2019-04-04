@@ -88,7 +88,9 @@
             this.cBoxLowHatchB = new System.Windows.Forms.CheckBox();
             this.cBoxHighHatchA = new System.Windows.Forms.CheckBox();
             this.cBoxMedHatchA = new System.Windows.Forms.CheckBox();
+            this.cBoxShuttle12 = new System.Windows.Forms.CheckBox();
             this.cBoxLowHatchA = new System.Windows.Forms.CheckBox();
+            this.cBoxShuttle11 = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
             this.gbS3 = new System.Windows.Forms.GroupBox();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
@@ -102,6 +104,7 @@
             this.rBtnMed1S2 = new System.Windows.Forms.RadioButton();
             this.label11 = new System.Windows.Forms.Label();
             this.gbS4 = new System.Windows.Forms.GroupBox();
+            this.cBoxShuttle16 = new System.Windows.Forms.CheckBox();
             this.cBoxMedHatchB2 = new System.Windows.Forms.CheckBox();
             this.cBoxHighHatchB2 = new System.Windows.Forms.CheckBox();
             this.cBoxLowHatchB2 = new System.Windows.Forms.CheckBox();
@@ -117,13 +120,10 @@
             this.cBoxShuttle4 = new System.Windows.Forms.CheckBox();
             this.cBoxShuttle3 = new System.Windows.Forms.CheckBox();
             this.cBoxShuttle10 = new System.Windows.Forms.CheckBox();
-            this.cBoxShuttle11 = new System.Windows.Forms.CheckBox();
-            this.cBoxShuttle12 = new System.Windows.Forms.CheckBox();
             this.cBoxShuttle15 = new System.Windows.Forms.CheckBox();
             this.cBoxShuttle14 = new System.Windows.Forms.CheckBox();
             this.cBoxShuttle13 = new System.Windows.Forms.CheckBox();
             this.cBoxShuttle9 = new System.Windows.Forms.CheckBox();
-            this.cBoxShuttle16 = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.gbHeightTop.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -274,7 +274,6 @@
             this.label1.Size = new System.Drawing.Size(14, 13);
             this.label1.TabIndex = 37;
             this.label1.Text = "A";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label3
             // 
@@ -778,7 +777,7 @@
             this.gbS.Controls.Add(this.groupBox7);
             this.gbS.Controls.Add(this.groupBox9);
             this.gbS.Controls.Add(this.groupBox8);
-            this.gbS.Location = new System.Drawing.Point(669, 136);
+            this.gbS.Location = new System.Drawing.Point(669, 127);
             this.gbS.Name = "gbS";
             this.gbS.Size = new System.Drawing.Size(119, 116);
             this.gbS.TabIndex = 67;
@@ -794,13 +793,12 @@
             this.gbS2.Controls.Add(this.cBoxHighHatchA);
             this.gbS2.Controls.Add(this.cBoxMedHatchA);
             this.gbS2.Controls.Add(this.cBoxLowHatchA);
-            this.gbS2.Location = new System.Drawing.Point(679, 133);
+            this.gbS2.Location = new System.Drawing.Point(679, 127);
             this.gbS2.Name = "gbS2";
             this.gbS2.Size = new System.Drawing.Size(99, 119);
             this.gbS2.TabIndex = 68;
             this.gbS2.TabStop = false;
             this.gbS2.Visible = false;
-            this.gbS2.Enter += new System.EventHandler(this.gbS2_Enter);
             // 
             // cBoxMedHatchB
             // 
@@ -816,7 +814,7 @@
             // cBoxHighHatchB
             // 
             this.cBoxHighHatchB.AutoSize = true;
-            this.cBoxHighHatchB.Location = new System.Drawing.Point(2, 90);
+            this.cBoxHighHatchB.Location = new System.Drawing.Point(2, 91);
             this.cBoxHighHatchB.Name = "cBoxHighHatchB";
             this.cBoxHighHatchB.Size = new System.Drawing.Size(64, 17);
             this.cBoxHighHatchB.TabIndex = 4;
@@ -857,6 +855,18 @@
             this.cBoxMedHatchA.UseVisualStyleBackColor = true;
             this.cBoxMedHatchA.CheckedChanged += new System.EventHandler(this.cBoxMedHatchA_CheckedChanged);
             // 
+            // cBoxShuttle12
+            // 
+            this.cBoxShuttle12.AutoSize = true;
+            this.cBoxShuttle12.Location = new System.Drawing.Point(659, 215);
+            this.cBoxShuttle12.Name = "cBoxShuttle12";
+            this.cBoxShuttle12.Size = new System.Drawing.Size(54, 17);
+            this.cBoxShuttle12.TabIndex = 81;
+            this.cBoxShuttle12.Text = "Cargo";
+            this.cBoxShuttle12.UseVisualStyleBackColor = true;
+            this.cBoxShuttle12.Visible = false;
+            this.cBoxShuttle12.CheckedChanged += new System.EventHandler(this.cBoxShuttle12_CheckedChanged);
+            // 
             // cBoxLowHatchA
             // 
             this.cBoxLowHatchA.AutoSize = true;
@@ -867,6 +877,18 @@
             this.cBoxLowHatchA.Text = "Low (A)";
             this.cBoxLowHatchA.UseVisualStyleBackColor = true;
             this.cBoxLowHatchA.CheckedChanged += new System.EventHandler(this.cBoxLowHatchA_CheckedChanged);
+            // 
+            // cBoxShuttle11
+            // 
+            this.cBoxShuttle11.AutoSize = true;
+            this.cBoxShuttle11.Location = new System.Drawing.Point(714, 215);
+            this.cBoxShuttle11.Name = "cBoxShuttle11";
+            this.cBoxShuttle11.Size = new System.Drawing.Size(54, 17);
+            this.cBoxShuttle11.TabIndex = 80;
+            this.cBoxShuttle11.Text = "Cargo";
+            this.cBoxShuttle11.UseVisualStyleBackColor = true;
+            this.cBoxShuttle11.Visible = false;
+            this.cBoxShuttle11.CheckedChanged += new System.EventHandler(this.cBoxShuttle11_CheckedChanged);
             // 
             // label4
             // 
@@ -1024,6 +1046,18 @@
             this.gbS4.TabStop = false;
             this.gbS4.Visible = false;
             // 
+            // cBoxShuttle16
+            // 
+            this.cBoxShuttle16.AutoSize = true;
+            this.cBoxShuttle16.Location = new System.Drawing.Point(713, 377);
+            this.cBoxShuttle16.Name = "cBoxShuttle16";
+            this.cBoxShuttle16.Size = new System.Drawing.Size(54, 17);
+            this.cBoxShuttle16.TabIndex = 86;
+            this.cBoxShuttle16.Text = "Cargo";
+            this.cBoxShuttle16.UseVisualStyleBackColor = true;
+            this.cBoxShuttle16.Visible = false;
+            this.cBoxShuttle16.CheckedChanged += new System.EventHandler(this.cBoxShuttle16_CheckedChanged);
+            // 
             // cBoxMedHatchB2
             // 
             this.cBoxMedHatchB2.AutoSize = true;
@@ -1159,7 +1193,7 @@
             // cBoxShuttle4
             // 
             this.cBoxShuttle4.AutoSize = true;
-            this.cBoxShuttle4.Location = new System.Drawing.Point(714, 216);
+            this.cBoxShuttle4.Location = new System.Drawing.Point(714, 215);
             this.cBoxShuttle4.Name = "cBoxShuttle4";
             this.cBoxShuttle4.Size = new System.Drawing.Size(55, 17);
             this.cBoxShuttle4.TabIndex = 77;
@@ -1181,7 +1215,7 @@
             // cBoxShuttle10
             // 
             this.cBoxShuttle10.AutoSize = true;
-            this.cBoxShuttle10.Location = new System.Drawing.Point(604, 216);
+            this.cBoxShuttle10.Location = new System.Drawing.Point(603, 216);
             this.cBoxShuttle10.Name = "cBoxShuttle10";
             this.cBoxShuttle10.Size = new System.Drawing.Size(54, 17);
             this.cBoxShuttle10.TabIndex = 79;
@@ -1189,30 +1223,6 @@
             this.cBoxShuttle10.UseVisualStyleBackColor = true;
             this.cBoxShuttle10.Visible = false;
             this.cBoxShuttle10.CheckedChanged += new System.EventHandler(this.cBoxShuttle9_CheckedChanged);
-            // 
-            // cBoxShuttle11
-            // 
-            this.cBoxShuttle11.AutoSize = true;
-            this.cBoxShuttle11.Location = new System.Drawing.Point(659, 216);
-            this.cBoxShuttle11.Name = "cBoxShuttle11";
-            this.cBoxShuttle11.Size = new System.Drawing.Size(54, 17);
-            this.cBoxShuttle11.TabIndex = 80;
-            this.cBoxShuttle11.Text = "Cargo";
-            this.cBoxShuttle11.UseVisualStyleBackColor = true;
-            this.cBoxShuttle11.Visible = false;
-            this.cBoxShuttle11.CheckedChanged += new System.EventHandler(this.cBoxShuttle11_CheckedChanged);
-            // 
-            // cBoxShuttle12
-            // 
-            this.cBoxShuttle12.AutoSize = true;
-            this.cBoxShuttle12.Location = new System.Drawing.Point(713, 216);
-            this.cBoxShuttle12.Name = "cBoxShuttle12";
-            this.cBoxShuttle12.Size = new System.Drawing.Size(54, 17);
-            this.cBoxShuttle12.TabIndex = 81;
-            this.cBoxShuttle12.Text = "Cargo";
-            this.cBoxShuttle12.UseVisualStyleBackColor = true;
-            this.cBoxShuttle12.Visible = false;
-            this.cBoxShuttle12.CheckedChanged += new System.EventHandler(this.cBoxShuttle12_CheckedChanged);
             // 
             // cBoxShuttle15
             // 
@@ -1261,18 +1271,6 @@
             this.cBoxShuttle9.UseVisualStyleBackColor = true;
             this.cBoxShuttle9.Visible = false;
             this.cBoxShuttle9.CheckedChanged += new System.EventHandler(this.cBoxShuttle9_CheckedChanged_1);
-            // 
-            // cBoxShuttle16
-            // 
-            this.cBoxShuttle16.AutoSize = true;
-            this.cBoxShuttle16.Location = new System.Drawing.Point(713, 377);
-            this.cBoxShuttle16.Name = "cBoxShuttle16";
-            this.cBoxShuttle16.Size = new System.Drawing.Size(54, 17);
-            this.cBoxShuttle16.TabIndex = 86;
-            this.cBoxShuttle16.Text = "Cargo";
-            this.cBoxShuttle16.UseVisualStyleBackColor = true;
-            this.cBoxShuttle16.Visible = false;
-            this.cBoxShuttle16.CheckedChanged += new System.EventHandler(this.cBoxShuttle16_CheckedChanged);
             // 
             // Autonomous
             // 

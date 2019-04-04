@@ -47,6 +47,7 @@
             this.tbEvent.Name = "tbEvent";
             this.tbEvent.Size = new System.Drawing.Size(100, 20);
             this.tbEvent.TabIndex = 1;
+            this.tbEvent.TextChanged += new System.EventHandler(this.tbEvent_TextChanged);
             // 
             // tbMatchNum
             // 
@@ -55,6 +56,7 @@
             this.tbMatchNum.Name = "tbMatchNum";
             this.tbMatchNum.Size = new System.Drawing.Size(100, 20);
             this.tbMatchNum.TabIndex = 2;
+            this.tbMatchNum.TextChanged += new System.EventHandler(this.tbMatchNum_TextChanged);
             // 
             // tbTeamNum
             // 
@@ -63,6 +65,7 @@
             this.tbTeamNum.Name = "tbTeamNum";
             this.tbTeamNum.Size = new System.Drawing.Size(100, 20);
             this.tbTeamNum.TabIndex = 3;
+            this.tbTeamNum.TextChanged += new System.EventHandler(this.tbTeamNum_TextChanged);
             // 
             // label2
             // 

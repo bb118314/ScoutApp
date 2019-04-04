@@ -17,6 +17,13 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
+        public class valuesForm
+        {
+            public static String eventID = "";
+            public static String teamID = "";
+            public static String matchNum = "";
+        }
+
         private void BtnContinue_Click(object sender, EventArgs e)
         {
             PreloadForm form2 = new PreloadForm();
@@ -30,6 +37,21 @@ namespace WindowsFormsApp1
             {
                 
             }
+        }
+
+        private void tbEvent_TextChanged(object sender, EventArgs e)
+        {
+            valuesForm.eventID = tbEvent.Text;
+        }
+
+        private void tbMatchNum_TextChanged(object sender, EventArgs e)
+        {
+            valuesForm.matchNum = tbMatchNum.Text;
+        }
+
+        private void tbTeamNum_TextChanged(object sender, EventArgs e)
+        {
+            valuesForm.teamID = tbTeamNum.Text;
         }
     }
 }

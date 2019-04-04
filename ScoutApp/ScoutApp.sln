@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoutApp", "..\Documents\ScoutApp\ScoutApp\ScoutApp.csproj", "{01DE34B9-FF6F-49F5-B5E8-91E351816F82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoutApp", "WindowsFormsApp1\ScoutApp.csproj", "{01DE34B9-FF6F-49F5-B5E8-91E351816F82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E0E6E7F7-4908-4FB4-A19F-C04DBE239283}
+		SolutionGuid = {2AD6E872-43EF-4D18-BAF2-CD87C9545C56}
 	EndGlobalSection
 EndGlobal

@@ -65,22 +65,22 @@ namespace WindowsFormsApp1
             public static int cargoLowS2 = 0;
 
             // Completed for Shuttle
-            public static Boolean shuttle1;
-            public static Boolean shuttle2;
-            public static Boolean shuttle3;
-            public static Boolean shuttle4;
-            public static Boolean shuttle5;
-            public static Boolean shuttle6;
-            public static Boolean shuttle7;
-            public static Boolean shuttle8;
-            public static Boolean shuttle9;
-            public static Boolean shuttle10;
-            public static Boolean shuttle11;
-            public static Boolean shuttle12;
-            public static Boolean shuttle13;
-            public static Boolean shuttle14;
-            public static Boolean shuttle15;
-            public static Boolean shuttle16;
+            public static int shuttle1;
+            public static int shuttle2;
+            public static int shuttle3;
+            public static int shuttle4;
+            public static int shuttle5;
+            public static int shuttle6;
+            public static int shuttle7;
+            public static int shuttle8;
+            public static int shuttle9;
+            public static int shuttle10;
+            public static int shuttle11;
+            public static int shuttle12;
+            public static int shuttle13;
+            public static int shuttle14;
+            public static int shuttle15;
+            public static int shuttle16;
         }
 
         private void DriverControlled_Load(object sender, EventArgs e)
@@ -1063,11 +1063,11 @@ namespace WindowsFormsApp1
         {
             if (cBoxShuttle10.Checked == true)
             {
-                valuesDC.shuttle10 = true;
+                valuesDC.shuttle10 = 1;
             }
             else if (cBoxShuttle10.Checked == false)
             {
-                valuesDC.shuttle10 = false;
+                valuesDC.shuttle10 = 0;
             }
         }
 
@@ -1080,11 +1080,11 @@ namespace WindowsFormsApp1
         {
             if (cBoxShuttle9.Checked == true)
             {
-                valuesDC.shuttle9 = true;
+                valuesDC.shuttle9 = 1;
             }
             else if (cBoxShuttle9.Checked == false)
             {
-                valuesDC.shuttle9 = false;
+                valuesDC.shuttle9 = 0;
             }
         }
 
@@ -1092,11 +1092,11 @@ namespace WindowsFormsApp1
         {
             if (cBoxShuttle11.Checked == true)
             {
-                valuesDC.shuttle11 = true;
+                valuesDC.shuttle11 = 1;
             }
             else if (cBoxShuttle11.Checked == false)
             {
-                valuesDC.shuttle11 = false;
+                valuesDC.shuttle11 = 0;
             }
         }
 
@@ -1104,11 +1104,11 @@ namespace WindowsFormsApp1
         {
             if (cBoxShuttle9.Checked == true)
             {
-                valuesDC.shuttle12 = true;
+                valuesDC.shuttle12 = 1;
             }
             else if (cBoxShuttle12.Checked == false)
             {
-                valuesDC.shuttle12 = false;
+                valuesDC.shuttle12 = 0;
             }
         }
 
@@ -1116,11 +1116,11 @@ namespace WindowsFormsApp1
         {
             if (cBoxShuttle13.Checked == true)
             {
-                valuesDC.shuttle13 = true;
+                valuesDC.shuttle13 = 1;
             }
             else if (cBoxShuttle13.Checked == false)
             {
-                valuesDC.shuttle13 = false;
+                valuesDC.shuttle13 = 0;
             }
         }
 
@@ -1128,11 +1128,11 @@ namespace WindowsFormsApp1
         {
             if (cBoxShuttle14.Checked == true)
             {
-                valuesDC.shuttle14 = true;
+                valuesDC.shuttle14 = 1;
             }
             else if (cBoxShuttle14.Checked == false)
             {
-                valuesDC.shuttle14 = false;
+                valuesDC.shuttle14 = 0;
             }
         }
 
@@ -1140,11 +1140,11 @@ namespace WindowsFormsApp1
         {
             if (cBoxShuttle15.Checked == true)
             {
-                valuesDC.shuttle15 = true;
+                valuesDC.shuttle15 = 1;
             }
             else if (cBoxShuttle15.Checked == false)
             {
-                valuesDC.shuttle15 = false;
+                valuesDC.shuttle15 = 0;
             }
         }
 
@@ -1152,11 +1152,11 @@ namespace WindowsFormsApp1
         {
             if (cBoxShuttle16.Checked == true)
             {
-                valuesDC.shuttle16 = true;
+                valuesDC.shuttle16 = 1;
             }
             else if (cBoxShuttle16.Checked == false)
             {
-                valuesDC.shuttle16 = false;
+                valuesDC.shuttle16 = 0;
             }
         }
 
